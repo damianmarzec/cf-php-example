@@ -7,3 +7,5 @@ applications:
   #domain: api.local.pcfdev.io
   path: .
   buildpack: https://github.com/dmikusa-pivotal/cf-php-build-pack.git
+  env:
+    COMPOSER_PATH: ""
